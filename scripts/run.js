@@ -11,8 +11,6 @@ const main = async () => {
 
   let waveTxn;
 
-  let waveArray;
-
   waveTxn = await waveContract.wave();
   await waveTxn.wait();
 
